@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1656003989 source:c:\users\hp\desktop\tp algo\lol\game.c
+	<malloc.h>
+	<stdio.h>
+	"game.h"
+	"grid.h"
+	"game_utils.h"
+	"game_logic.h"
+
+1656003906 c:\users\hp\desktop\tp algo\lol\game.h
+	"battleship_types.h"
+
+1656003989 c:\users\hp\desktop\tp algo\lol\battleship_types.h
+	<stdint.h>
+
+1656008488 c:\users\hp\desktop\tp algo\lol\grid.h
+	"battleship_types.h"
+
+1656003683 c:\users\hp\desktop\tp algo\lol\game_utils.h
+	"grid.h"
+	"game_logic.h"
+
+1656008632 c:\users\hp\desktop\tp algo\lol\game_logic.h
+	"battleship_types.h"
+	"grid.h"
+
+1656003683 source:c:\users\hp\desktop\tp algo\lol\grid.c
+	<stdio.h>
+	"grid.h"
+	"utilities.h"
+
+1656007429 c:\users\hp\desktop\tp algo\lol\utilities.h
+	"battleship_types.h"
+
+1656003470 source:c:\users\hp\desktop\tp algo\lol\main.c
+	"game.h"
+
+1656007414 source:c:\users\hp\desktop\tp algo\lol\utilities.c
+	<stdio.h>
+	<malloc.h>
+	<string.h>
+	"utilities.h"
+
+1656004126 source:c:\users\hp\desktop\tp algo\lol\file_management.c
+	<Windows.h>
+	<direct.h>
+	<stdio.h>
+	"file_management.h"
+
+1656004090 c:\users\hp\desktop\tp algo\lol\file_management.h
+	<stdio.h>
+	<stdint.h>
+
+1656007923 source:c:\users\hp\desktop\tp algo\lol\game_logic.c
+	<Windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utilities.h"
+	"game_logic.h"
+	"game_utils.h"
+	"file_management.h"
+	"enum_names.h"
+
+1656004165 c:\users\hp\desktop\tp algo\lol\enum_names.h
+
+1656008562 source:c:\users\hp\desktop\tp algo\lol\game_util.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utilities.h"
+	"game_utils.h"
+	"grid.h"
+	"enum_names.h"
+	"file_management.h"
+
